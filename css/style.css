@@ -1,0 +1,173 @@
+*{
+	box-sizing: border-box;
+}
+/*setting base font style and min size of scale for site. These values wont need to be changed despite media queries*/
+body {
+font-family: 'Montserrat', 'helvetica', sans-serif;
+min-width: 340px;
+background-color: #484447;
+}
+/*Starting with mobile layout style for resolution 360px or less */
+.Container {
+
+}
+
+h1 {
+	margin: 0;
+	font-size: 31px;
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+	
+}
+
+header {
+	height: 60px;	
+	margin-top: 0;
+	
+	}
+#head {
+    width: 100%;
+    height: 40px;
+    background-color: #0092AF;
+    text-align: left;
+
+	padding-left: 5px;
+	color: #FFFDF7;
+	box-shadow: 0px 3px 10px #393A3D;	
+}
+
+/*Setting basic layout for the parent container of the top intro*/
+.subjectCard {
+	background: #EDEBE3;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    border-radius: 12px;
+    width: 100%;
+	margin-bottom: 20px;
+}
+
+.selfie {
+    display: block;
+    
+    margin-bottom: 10px;
+    width: 100%;
+	border-radius: 15px;
+	box-shadow: 0px 3px 7px #393A3D;
+}
+footer {
+	font-size: .67em;
+	width: 100%;
+    height: 70px;
+    background-color: #0092AF;
+    text-align: center;
+	padding-top: 7px;
+	padding-bottom: 15px;
+	color: #FFFDF7;
+}
+.tile {
+	background: #EDEBE3;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    border-radius: 12px;
+    width: 100%;
+	margin-bottom: 15px;
+	position: relative;
+	
+}
+.tile img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    width: 100%;
+	border-radius: 15px;
+	
+}
+.tile div {
+	
+}
+.tile a {
+	text-decoration: none;
+	position: absolute;
+    bottom: 0;
+	left: 50%;
+    transform: translateX(-50%);
+	margin-bottom: 5px;
+}
+
+/* Small Tablets */
+@media (min-width: 361px)and (max-width: 550px){
+.Container {
+		
+/*		margin: 0 auto;*/
+		
+	}
+
+.selfie {
+	max-width: 350px;
+	display: block;
+	margin-bottom: 10px;
+	margin-left: auto;
+    margin-right: auto;
+}
+	.tile {
+	max-width: 90%;
+	margin-left: auto;
+		margin-right: auto;
+	}	
+	
+	
+	
+	
+}
+@media (min-width: 551px){
+.subjectCard {
+	 max-width: 850px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	}
+.subjectCard h1{
+		display: block;
+		text-align: left;
+	}
+
+
+
+.selfie {
+	margin: 0px 0px 20px 15px;
+    max-width: 45%;
+	float:right;	
+}
+	.columnLayout{
+		max-width: 850px;
+		display:flex;
+		margin: 0 auto 20px auto;
+		justify-content: space-between;
+	}
+	.tile {
+	flex-basis: 48%;	
+		
+	}
+	
+	
+	
+}
+
+
+
+
+
+/*Adding this class to the parent of a floated element helps keep it from collapsing*/
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
