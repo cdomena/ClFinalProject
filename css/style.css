@@ -129,6 +129,12 @@ footer {
 	background-color: rgba(0,146,175,0.30);
 }
 
+.galleryLinks a{
+	display:block;
+	margin: 10px 0px;
+	
+}
+
 /* Small Tablets */
 @media (min-width: 361px)and (max-width: 550px){
 .Container {

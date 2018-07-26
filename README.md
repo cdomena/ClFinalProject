@@ -4,4 +4,6 @@ I created a simple template for a personal site to test out various HTML/CSS/JS 
 
 You can either download the files and open the "index.html" or view thr GitHub pages link https://cdomena.github.io/ClFinalProject/
 
+Javascript example is in The about page (stuff.html). Magic 8 ball generator.
+
 *Oddly the folder name is case sensative for the GitHub pages link.
