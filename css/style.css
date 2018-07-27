@@ -51,9 +51,7 @@ header {
 
 #head a:hover {
 	background-color: rgba(57,58,61,0.30);
-	
-	
-}
+	}
 
 /*Setting basic layout for the parent container of the top intro*/
 .subjectCard {
@@ -132,6 +130,30 @@ footer {
 .galleryLinks a{
 	display:block;
 	margin: 10px 0px;
+	}
+.js8Ball {
+background: black;	
+border-radius: 50%;
+	height:300px;
+	width: 300px;
+	position: relative;
+}
+#fortune {
+	width:100px;
+	height: 100px;
+	padding-top: 29px;
+	text-align: center;
+	font-size: 15px;
+	background: white;
+	border-radius: 50%;
+	position: relative;
+	top: 35%;
+	left:33.5%;
+	color: blue;
+}
+#shake {
+	margin-top:15px;
+	margin-left:70px;
 	
 }
 
